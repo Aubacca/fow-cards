@@ -1,0 +1,775 @@
+{
+  "cards": [
+    {
+      "header": {
+        "nation": "US",
+        "name": "Army",
+        "title": "M7 Priest",
+        "subtitle": "Armored Artillery Battery"
+      },
+      "image": "",
+      "motivation": {
+        "name": "Confident",
+        "w6": "4+"
+      },
+      "skill": {
+        "name": "Veteran",
+        "w6": "3+"
+      },
+      "isHitOn": {
+        "name": "Careful",
+        "w6": "4+"
+      },
+      "armour": [
+        {
+          "Front": "1"
+        },
+        {
+          "Side & Rear": "0"
+        },
+        {
+          "Top": "0"
+        }
+      ],
+      "move": {
+        "tactical": "25cm",
+        "terainDash": "30cm",
+        "crossCountryDash": "45cm",
+        "roadDash": "50cm",
+        "cross": "3+"
+      },
+      "weapons": [
+        {
+          "weapon": "M7 Priest (105mm)",
+          "range": "180cm",
+          "rofHalted": "Artillery",
+          "rofMoving": "Artillery",
+          "antiTank": "3",
+          "firePower": "3+",
+          "note": "Forward Firing. Smoke Bombardment."
+        },
+        {
+          "weapon": "or Direct Fire",
+          "range": "60cm",
+          "rofHalted": "1",
+          "rofMoving": "1",
+          "antiTank": "9",
+          "firePower": "2+",
+          "note": "Breakthrough Gun. Forward Firing. Slow Firing. Smoke."
+        },
+        {
+          "weapon": "M7 Priest (.50 cal MG)",
+          "range": "40cm",
+          "rofHalted": "3",
+          "rofMoving": "3",
+          "antiTank": "4",
+          "firePower": "5+",
+          "note": "Self-defence AA."
+        }
+      ]
+    },
+    {
+      "header": {
+        "nation": "US",
+        "name": "Army",
+        "title": "M4 Sherman",
+        "subtitle": "Tank Platoon"
+      },
+      "image": "",
+      "motivation": {
+        "name": "Confident",
+        "w6": "3+",
+        "skill": [
+          {
+            "name": "Blood'n'Guts",
+            "rule": "Last Stand",
+            "w6": "3+"
+          }
+        ]
+      },
+      "skill": {
+        "name": "Trained",
+        "w6": "4+"
+      },
+      "isHitOn": {
+        "name": "Aggresive",
+        "w6": "3+"
+      },
+      "armour": [
+        {
+          "Front": "6"
+        },
+        {
+          "Side & Rear": "4"
+        },
+        {
+          "Top": "1"
+        }
+      ],
+      "move": {
+        "tactical": "25cm",
+        "terainDash": "30cm",
+        "crossCountryDash": "45cm",
+        "roadDash": "50cm",
+        "cross": "3+"
+      },
+      "weapons": [
+        {
+          "weapon": "M4 Sherman (75mm)",
+          "range": "70cm",
+          "rofHalted": "2",
+          "rofMoving": "2",
+          "antiTank": "10",
+          "firePower": "3+",
+          "note": "Smoke, Stabilizer"
+        },
+        {
+          "weapon": "M4 Sherman (.50 cal MG)",
+          "range": "50cm",
+          "rofHalted": "3",
+          "rofMoving": "2",
+          "antiTank": "4",
+          "firePower": "5+",
+          "note": "Self-defence AA"
+        },
+        {
+          "weapon": "M4 Sherman (MGs)",
+          "range": "40cm",
+          "rofHalted": "2",
+          "rofMoving": "2",
+          "antiTank": "2",
+          "firePower": "6"
+        }
+      ]
+    },
+    {
+      "header": {
+        "nation": "RU",
+        "name": "Red Alert",
+        "title": "IS-2",
+        "subtitle": "Tank Company"
+      },
+      "image": "",
+      "motivation": {
+        "name": "Fairless",
+        "w6": "3+"
+      },
+      "skill": {
+        "name": "Trained",
+        "w6": "4+"
+      },
+      "isHitOn": {
+        "name": "Aggresive",
+        "w6": "3+"
+      },
+      "armour": [
+        {
+          "Front": "10"
+        },
+        {
+          "Front (Late)": "11"
+        },
+        {
+          "Side & Rear": "8"
+        },
+        {
+          "Top": "2"
+        }
+      ],
+      "move": {
+        "tactical": "20cm",
+        "terainDash": "30cm",
+        "crossCountryDash": "35cm",
+        "roadDash": "40cm",
+        "cross": "3+"
+      },
+      "weapons": [
+        {
+          "weapon": "IS-2 (122mm)",
+          "range": "80cm",
+          "rofHalted": "1",
+          "rofMoving": "1",
+          "antiTank": "15",
+          "firePower": "2+",
+          "note": "Breakthrough Gun, Slow Firing"
+        },
+        {
+          "weapon": "IS-2 (.50 cal MG)",
+          "range": "40cm",
+          "rofHalted": "3",
+          "rofMoving": "3",
+          "antiTank": "4",
+          "firePower": "5+",
+          "note": "Self-defence AA"
+        },
+        {
+          "weapon": "IS-2 (MG)",
+          "range": "40cm",
+          "rofHalted": "1",
+          "rofMoving": "1",
+          "antiTank": "2",
+          "firePower": "6"
+        }
+      ]
+    },
+    {
+      "header": {
+        "nation": "US",
+        "name": "Army",
+        "title": "M3 75MM GMC",
+        "subtitle": "Tank Destroyer Platoon"
+      },
+      "image": "",
+      "motivation": {
+        "name": "Confident",
+        "w6": "4+",
+        "skill": [
+          {
+            "name": "Open Top",
+            "rule": "Counterattack",
+            "w6": "6"
+          }
+        ]
+      },
+      "skill": {
+        "name": "Trained",
+        "w6": "4+",
+        "skill": [
+          {
+            "name": "Open Top",
+            "rule": "Assult",
+            "w6": "6"
+          }
+        ]
+      },
+      "isHitOn": {
+        "name": "Aggresive",
+        "w6": "3+"
+      },
+      "armour": [
+        {
+          "Front": "1"
+        },
+        {
+          "Side & Rear": "0"
+        },
+        {
+          "Top": "0"
+        }
+      ],
+      "move": {
+        "tactical": "25cm",
+        "terainDash": "25cm",
+        "crossCountryDash": "40cm",
+        "roadDash": "80cm",
+        "cross": "4+"
+      },
+      "weapons": [
+        {
+          "weapon": "M3 GMC (75mm)",
+          "range": "60cm",
+          "rofHalted": "2",
+          "rofMoving": "1",
+          "antiTank": "9",
+          "firePower": "3+"
+        }
+      ]
+    },
+    {
+      "header": {
+        "nation": "DE",
+        "name": "Africa Korps",
+        "title": "Panzer IV (Late)",
+        "subtitle": "Tank Platoon"
+      },
+      "image": "",
+      "motivation": {
+        "name": "Confident",
+        "w6": "4+",
+        "skill": [
+          {
+            "name": "Third Reich",
+            "rule": "Last Stand",
+            "w6": "3+"
+          },
+          {
+            "name": "Protected Ammo",
+            "rule": "Remount",
+            "w6": "3+"
+          }
+        ]
+      },
+      "skill": {
+        "name": "Veteran",
+        "w6": "3+"
+      },
+      "isHitOn": {
+        "name": "Careful",
+        "w6": "4+"
+      },
+      "armour": [
+        {
+          "Front": "6"
+        },
+        {
+          "Side & Rear": "3"
+        },
+        {
+          "Top": "1"
+        }
+      ],
+      "move": {
+        "tactical": "25cm",
+        "terainDash": "30cm",
+        "crossCountryDash": "45cm",
+        "roadDash": "50cm",
+        "cross": "3+"
+      },
+      "weapons": [
+        {
+          "weapon": "Panzer IV (late 7.5cm)",
+          "range": "80cm",
+          "rofHalted": "2",
+          "rofMoving": "1",
+          "antiTank": "11",
+          "firePower": "3+"
+        },
+        {
+          "weapon": "Panzer III (late 7.5cm)",
+          "range": "60cm",
+          "rofHalted": "2",
+          "rofMoving": "1",
+          "antiTank": "9",
+          "firePower": "3+",
+          "note": "HEAT"
+        },
+        {
+          "weapon": "Panzer III (MG's)",
+          "range": "40cm",
+          "rofHalted": "4",
+          "rofMoving": "4",
+          "antiTank": "2",
+          "firePower": "6"
+        }
+      ]
+    },
+    {
+      "header": {
+        "nation": "DE",
+        "name": "Africa Korps",
+        "title": "7.62cm PaK",
+        "subtitle": "Thank Hunter Platoon"
+      },
+      "image": "",
+      "motivation": {
+        "name": "Confident",
+        "w6": "4+",
+        "skill": [
+          {
+            "name": "Third Reich",
+            "rule": "Last Stand",
+            "w6": "3+"
+          }
+        ]
+      },
+      "skill": {
+        "name": "Veteran",
+        "w6": "3+",
+        "skill": [
+          {
+            "name": "Gun",
+            "rule": "Assult",
+            "w6": "4+"
+          }
+        ]
+      },
+      "isHitOn": {
+        "name": "Careful",
+        "w6": "4+"
+      },
+      "saves": [{ "name": "Gun", "w6": "4+" }],
+      "move": {
+        "tactical": "-",
+        "terainDash": "5cm",
+        "crossCountryDash": "10cm",
+        "roadDash": "15cm",
+        "cross": "5+"
+      },
+      "weapons": [
+        {
+          "weapon": "7.62cm gun",
+          "range": "80cm",
+          "rofHalted": "2",
+          "rofMoving": "1",
+          "antiTank": "12",
+          "firePower": "3+",
+          "note": "Forward Firing"
+        }
+      ]
+    },
+    {
+      "header": {
+        "nation": "GB",
+        "name": "Desert Rats",
+        "title": "1/25 Pdr",
+        "subtitle": "Anti Tank Troop"
+      },
+      "image": "",
+      "motivation": {
+        "name": "Fairless",
+        "w6": "3+"
+      },
+      "skill": {
+        "name": "Veteran",
+        "w6": "3+",
+        "skill": [
+          {
+            "name": "Gun",
+            "rule": "Assult",
+            "w6": "4+"
+          }
+        ]
+      },
+      "isHitOn": {
+        "name": "Careful",
+        "w6": "4+"
+      },
+      "saves": [
+        {
+          "name": "Gun",
+          "w6": "4+"
+        }
+      ],
+      "move": {
+        "tactical": "-",
+        "terainDash": "5cm",
+        "crossCountryDash": "10cm",
+        "roadDash": "10cm",
+        "cross": "6"
+      },
+      "weapons": [
+        {
+          "weapon": "17/25 pdr gun",
+          "range": "90cm",
+          "rofHalted": "2",
+          "rofMoving": "1",
+          "antiTank": "12",
+          "firePower": "3+",
+          "note": "Forward Firing, No HE"
+        }
+      ]
+    },
+    {
+      "header": {
+        "nation": "US",
+        "name": "Airforce",
+        "title": "Parachute",
+        "subtitle": "Rifle Platoon"
+      },
+      "image": "",
+      "motivation": {
+        "name": "Fairless",
+        "w6": "3+"
+      },
+      "skill": {
+        "name": "Veteran",
+        "w6": "3+"
+      },
+      "isHitOn": {
+        "name": "Careful",
+        "w6": "4+"
+      },
+      "saves": [{ "name": "Infantry", "w6": "3+" }],
+      "move": {
+        "tactical": "20cm",
+        "terainDash": "20cm",
+        "crossCountryDash": "35cm",
+        "roadDash": "35cm",
+        "cross": "Auto"
+      },
+      "weapons": [
+        {
+          "weapon": "M1919 & M1 Garand rifle team",
+          "range": "40cm",
+          "rofHalted": "2",
+          "rofMoving": "1",
+          "antiTank": "2",
+          "firePower": "6"
+        },
+        {
+          "weapon": "60mm mortar",
+          "range": "80cm",
+          "rofHalted": "Artillery",
+          "rofMoving": "Artillery",
+          "antiTank": "1",
+          "firePower": "4+",
+          "note": "Assult 4+, Heavy Weapon"
+        },
+        {
+          "weapon": "M1 Bazooka team",
+          "range": "20cm",
+          "rofHalted": "1",
+          "rofMoving": "1",
+          "antiTank": "10",
+          "firePower": "5+",
+          "note": "Assult 4+, Slow Firing"
+        },
+        {
+          "weapon": "Optional M1919 LMG",
+          "range": "40cm",
+          "rofHalted": "5",
+          "rofMoving": "2",
+          "antiTank": "2",
+          "firePower": "6",
+          "note": "Assult 4+, Heavy Weapon"
+        }
+      ]
+    },
+    {
+      "header": {
+        "nation": "GB",
+        "name": "Desert Rats",
+        "title": "Rifle Company HQ",
+        "subtitle": "Rifle Comany"
+      },
+      "image": "",
+      "motivation": {
+        "name": "Confident",
+        "w6": "4+",
+        "skill": [
+          {
+            "name": "Bulldog",
+            "rule": "Counterattack",
+            "w6": "3+"
+          }
+        ]
+      },
+      "skill": {
+        "name": "Trained",
+        "w6": "4+",
+        "skill": [
+          {
+            "name": "Deadly",
+            "rule": "Assult",
+            "w6": "3+"
+          }
+        ]
+      },
+      "isHitOn": {
+        "name": "Careful",
+        "w6": "4+"
+      },
+      "saves": [{ "name": "Infantry", "w6": "3+" }],
+      "move": {
+        "tactical": "20cm",
+        "terainDash": "20cm",
+        "crossCountryDash": "30cm",
+        "roadDash": "30cm",
+        "cross": "Auto"
+      },
+      "weapons": [
+        {
+          "weapon": "SMLE rifle team",
+          "range": "40cm",
+          "rofHalted": "1",
+          "rofMoving": "1",
+          "antiTank": "2",
+          "firePower": "6",
+          "note": "Slow Firing"
+        }
+      ]
+    },
+    {
+      "header": {
+        "nation": "DE",
+        "name": "Luftwaffe",
+        "title": "Ju 87 Stuka",
+        "subtitle": "Dive Bomber Flight"
+      },
+      "image": "GBX103-15.png",
+      "motivation": {
+        "name": "Confident",
+        "w6": "4+"
+      },
+      "skill": {
+        "name": "Veteran",
+        "w6": "3+"
+      },
+      "isHitOn": {
+        "name": "Aircraft",
+        "w6": "5+"
+      },
+      "saves": [{ "name": "Aircraft", "w6": "3+" }],
+      "move": {
+        "tactical": "Unlimited",
+        "terainDash": "Unlimited",
+        "crossCountryDash": "Unlimited",
+        "roadDash": "Unlimited",
+        "cross": "Auto"
+      },
+      "weapons": [
+        {
+          "weapon": "500kg bombs",
+          "range": "15cm",
+          "rofHalted": "Artillery",
+          "rofMoving": "Artillery",
+          "antiTank": "4",
+          "firePower": "2+",
+          "note": "Bombs"
+        }
+      ]
+    },
+    {
+      "header": {
+        "nation": "GB",
+        "name": "Airforce",
+        "title": "Kittyhawk",
+        "subtitle": "Fighter-Bomber Flight"
+      },
+      "image": "BBX46-14.png",
+      "motivation": {
+        "name": "Confident",
+        "w6": "4+"
+      },
+      "skill": {
+        "name": "Trained",
+        "w6": "4+"
+      },
+      "isHitOn": {
+        "name": "Aircraft",
+        "w6": "5+"
+      },
+      "saves": [{ "name": "Aircraft", "w6": "3+" }],
+      "move": {
+        "tactical": "Unlimited",
+        "terainDash": "Unlimited",
+        "crossCountryDash": "Unlimited",
+        "roadDash": "Unlimited",
+        "cross": "Auto"
+      },
+      "weapons": [
+        {
+          "weapon": "500lb bombs",
+          "range": "15cm",
+          "rofHalted": "Artillery",
+          "rofMoving": "Artillery",
+          "antiTank": "3",
+          "firePower": "2+",
+          "note": "Bombs"
+        },
+        {
+          "weapon": ".50 cal MGs",
+          "range": "20cm",
+          "rofHalted": "-",
+          "rofMoving": "3",
+          "antiTank": "5",
+          "firePower": "5+"
+        }
+      ]
+    },
+    {
+      "header": {
+        "nation": "DE",
+        "name": "Luftwaffe",
+        "title": "JU 87 Stuka (3.7cm)",
+        "subtitle": "Thank Hunter Flight"
+      },
+      "image": "GBX120-17.jpg",
+      "motivation": {
+        "name": "Confident",
+        "w6": "4+"
+      },
+      "skill": {
+        "name": "Veteran",
+        "w6": "3+"
+      },
+      "isHitOn": {
+        "name": "Aircraft",
+        "w6": "5+"
+      },
+      "saves": [{ "name": "Aircraft", "w6": "3+" }],
+      "move": {
+        "tactical": "Unlimited",
+        "terainDash": "Unlimited",
+        "crossCountryDash": "Unlimited",
+        "roadDash": "Unlimited",
+        "cross": "Auto"
+      },
+      "weapons": [
+        {
+          "weapon": "Ju 87 Stuka (3.7cm)",
+          "range": "20cm",
+          "rofHalted": "-",
+          "rofMoving": "2",
+          "antiTank": "9",
+          "firePower": "4+"
+        }
+      ]
+    },
+    {
+      "header": {
+        "nation": "US",
+        "name": "Army",
+        "title": "",
+        "subtitle": ""
+      },
+      "image": "",
+      "motivation": {
+        "name": "",
+        "w6": "",
+        "skill": [
+          {
+            "name": "",
+            "rule": "",
+            "w6": ""
+          }
+        ]
+      },
+      "skill": {
+        "name": "",
+        "w6": "",
+        "skill": [
+          {
+            "name": "",
+            "rule": "",
+            "w6": ""
+          }
+        ]
+      },
+      "isHitOn": {
+        "name": "",
+        "w6": ""
+      },
+      "saves": [{ "name": "Infantry", "w6": "" }],
+      "armour": [
+        {
+          "Front": ""
+        },
+        {
+          "Side & Rear": ""
+        },
+        {
+          "Top": ""
+        }
+      ],
+      "move": {
+        "tactical": "",
+        "terainDash": "",
+        "crossCountryDash": "",
+        "roadDash": "",
+        "cross": ""
+      },
+      "weapons": [
+        {
+          "weapon": "",
+          "range": "",
+          "rofHalted": "",
+          "rofMoving": "",
+          "antiTank": "",
+          "firePower": "",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}
