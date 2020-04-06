@@ -1,6 +1,6 @@
 <template>
   <div class="fow-cards">
-    <h1>FoW - Cards</h1>
+    <h1>Flames of War - Cards</h1>
     <CardListComponent />
   </div>
 </template>
