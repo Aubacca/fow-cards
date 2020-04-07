@@ -7,20 +7,34 @@
       {{ this.cardDetail.header.name }}
     </span>
     <hr />
-    <SkillBoxComponent :pageTitle="'Motivation'" :skills="this.cardDetail.motivation"></SkillBoxComponent>
+    <SkillBoxComponent
+      :pageTitle="'Motivation'"
+      :skills="this.cardDetail.motivation"
+    ></SkillBoxComponent>
     <hr />
-    <SkillBoxComponent :pageTitle="'Skill'" :skills="this.cardDetail.skill"></SkillBoxComponent>
+    <SkillBoxComponent
+      :pageTitle="'Skill'"
+      :skills="this.cardDetail.skill"
+    ></SkillBoxComponent>
     <hr />
-    <SkillBoxComponent :pageTitle="'Is Hit On'" :skills="this.cardDetail.isHitOn"></SkillBoxComponent>
+    <SkillBoxComponent
+      :pageTitle="'Is Hit On'"
+      :skills="this.cardDetail.isHitOn"
+    ></SkillBoxComponent>
     <hr />
-    <ArmourListComponent :pageTitle="'Armour'" :itemList="this.cardDetail.armour"></ArmourListComponent>
+    <ArmourListComponent
+      :pageTitle="'Armour'"
+      :itemList="this.cardDetail.armour"
+    ></ArmourListComponent>
     <hr />
     <div>
       <h3>Move</h3>
       <div>
         <span>Tactical: {{ this.cardDetail.move.tactical }}</span>
         <span>Terrain Dash: {{ this.cardDetail.move.terainDash }}</span>
-        <span>Cross Country Dash: {{ this.cardDetail.move.crossCountryDash }}</span>
+        <span
+          >Cross Country Dash: {{ this.cardDetail.move.crossCountryDash }}</span
+        >
         <span>Road Dash: {{ this.cardDetail.move.roadDash }}</span>
         <span>Cross Check: {{ this.cardDetail.move.cross }}</span>
       </div>
