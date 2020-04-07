@@ -1,13 +1,22 @@
 <template>
   <div>
+    <v-container fluid class="grey lighten-5">
+      <v-row no-gutters>
+        <template v-for="(card, n) in cardList">
+          <v-col :key="n">
+            <v-card class="pa-2 ms-1 ma-1" outlined tile>
+              <CardComponent :cardDetail="card" />
+            </v-card>
+          </v-col>
+          <v-responsive v-if="(n%2) === 1" :key="`width-${n}`" width="100%"></v-responsive>
+        </template>
+      </v-row>
+    </v-container>
     <!-- <h1>Card List</h1> -->
     <!-- <h3>{{ this.cardList }}</h3> -->
-    <div v-for="card of cardList" :key="card.id">
-      <!-- <hr />
-      card: {{ card }}
-      <hr /> -->
+    <!-- <div v-for="card of cardList" :key="card.id">
       <CardComponent :cardDetail="card" />
-    </div>
+    </div> -->
   </div>
 </template>
 
