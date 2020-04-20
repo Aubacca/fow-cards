@@ -1,16 +1,26 @@
 <template>
   <div>
-    <h1>{{ this.cardDetail.header.title }}</h1>
-    <h3>{{ this.cardDetail.header.subtitle }}</h3>
-    <span>
-      {{ this.cardDetail.header.nation }} /
-      {{ this.cardDetail.header.name }}
-    </span>
-    <hr />
-    <SkillBoxComponent
-      :pageTitle="'Motivation'"
-      :skills="this.cardDetail.motivation"
-    ></SkillBoxComponent>
+    <v-container class="grey lighten-5">
+      <v-row>
+        <v-col cols="2">{{ this.cardDetail.header.nation }}</v-col>
+        <v-col cols="8">
+          <h4>{{ this.cardDetail.header.title }}</h4>
+          <span>{{ this.cardDetail.header.subtitle }}</span>
+        </v-col>
+        <v-col cols="2">{{ this.cardDetail.header.name }}</v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="2">
+          <SkillBoxComponent
+            :pageTitle="'Motivation'"
+            :skills="this.cardDetail.motivation"
+          ></SkillBoxComponent
+        ></v-col>
+        <v-col cols="8">2 </v-col>
+        <v-col cols="2">3</v-col>
+      </v-row>
+    </v-container>
+
     <hr />
     <SkillBoxComponent
       :pageTitle="'Skill'"

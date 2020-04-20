@@ -1,6 +1,4 @@
 <template>
-  <!-- App.vue -->
-
   <v-app>
     <v-app-bar color="deep-purple" dark app>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
@@ -63,17 +61,10 @@
 <script>
 export default {
   name: "App",
-
-  components: {},
   data() {
     return {
       drawer: true,
-      items: [
-        { title: "Home", icon: "mdi-home-city" },
-        { title: "My Account", icon: "mdi-account" },
-        { title: "Users", icon: "mdi-account-group-outline" },
-      ],
-      mini: true,
+      group: "",
     };
   },
 };
