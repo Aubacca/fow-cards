@@ -3,9 +3,9 @@
     <v-container fluid class="grey lighten-5">
       <v-row no-gutters>
         <template v-for="(card, n) in allUnitCards">
-          <v-col :key="n">
+          <v-col cols="6" :key="n">
             <v-card class="pa-2 ms-1 ma-1" outlined tile>
-              <CardComponent :cardDetail="card" />
+              <CardComponent :cardDetail="card" class="fow-card" elevation-5 />
             </v-card>
           </v-col>
           <v-responsive
@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import CardComponent from "./CardComponent";
+import CardComponent from "./components/CardComponent";
 
 export default {
   name: "cardList",
@@ -44,4 +44,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.fow-card {
+  border: brown solid 2px;
+  border-radius: 10px;
+  background-color: burlywood;
+}
+</style>
