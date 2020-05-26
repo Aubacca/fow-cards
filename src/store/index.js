@@ -39,8 +39,7 @@ async function getUnitCards() {
 }
 
 export default new Vuex.Store({
-  state: {
-  },
+  state: {},
   getters: {},
   mutations: {},
   actions: {},
