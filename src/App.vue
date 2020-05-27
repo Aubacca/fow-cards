@@ -35,6 +35,17 @@
               <v-icon>mdi-account</v-icon>
             </v-list-item-icon>
             <v-list-item-title
+              ><router-link to="cards2"
+                >Cards/Grid CSS</router-link
+              ></v-list-item-title
+            >
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-account</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title
               ><router-link to="about">About</router-link></v-list-item-title
             >
           </v-list-item>
