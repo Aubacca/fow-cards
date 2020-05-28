@@ -34,12 +34,14 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .weapon-header {
+  border: cornflowerblue solid 1px;
   color: red;
   font-size: small;
 }
 .weapon-value {
+  border: cornflowerblue solid 1px;
   font-size: x-small;
 }
 </style>

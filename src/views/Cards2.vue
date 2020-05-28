@@ -1,15 +1,15 @@
 <template>
   <div class="fow-cards">
     <h1>Flames of War - Cards/Grid CSS</h1>
-    <CardContainer />
+    <CardsContainer />
   </div>
 </template>
 
 <script>
-import CardContainer from "../components/card2/CardContainer";
+import CardsContainer from "../components/card2/CardsContainer";
 
 export default {
   name: "Cards2",
-  components: { CardContainer },
+  components: { CardsContainer },
 };
 </script>

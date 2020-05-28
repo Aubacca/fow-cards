@@ -28,12 +28,14 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .move-header {
-  font-size: small;
+  border: cornflowerblue solid 1px;
   color: red;
+  font-size: small;
 }
 .move-value {
+  border: cornflowerblue solid 1px;
   font-size: x-small;
 }
 </style>
