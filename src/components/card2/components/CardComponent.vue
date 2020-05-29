@@ -24,21 +24,9 @@
     </div>
     <div class="fow-move">
       <CardMovingComponent :itemMoving="this.cardData.move" />
-      <!-- <div class="fow-move-tactical">Move Tactical</div>
-      <div class="fow-move-terrain">Move Terrain</div>
-      <div class="fow-move-country">Move Cross Country</div>
-      <div class="fow-move-road">Move Road</div>
-      <div class="fow-move-cross-check">Cross Check</div> -->
     </div>
     <div class="fow-weapon">
       <CardWeaponComponent :itemWeapons="this.cardData.weapons" />
-      <!-- <div class="fow-weapon-desc">Weapon</div>
-      <div class="fow-weapon-range">Range</div>
-      <div class="fow-weapon-for-halted">ROF Halted</div>
-      <div class="fow-weapon-rof-moved">ROF Moved</div>
-      <div class="fow-weapon-antitank">Antitank</div>
-      <div class="fow-weapon-firepower">Firepower</div>
-      <div class="fow-weapon-note">Note</div> -->
     </div>
   </div>
 </template>
@@ -69,6 +57,7 @@ export default {
 </script>
 
 <style scoped>
+
 .fow-grid-container {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
@@ -79,8 +68,10 @@ export default {
     "fow-data-left fow-image fow-data-right"
     "fow-move fow-move fow-move"
     "fow-weapon fow-weapon fow-weapon";
-  width: 8.9cm * 2;
-  height: 5.7cm * 2;
+  width: 17.8cm;
+  height: 11.4cm;
+  /* width: 8.9cm;
+  height: 5.7cm; */
   border: blue solid 1px;
   border-radius: 2.5mm;
 }
@@ -107,58 +98,8 @@ export default {
 }
 .fow-move {
   grid-area: fow-move;
-  /* display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 1px 1px;
-  grid-template-areas:
-    "fow-move-tactical fow-move-terrain fow-move-country fow-move-road fow-move-cross-check"
-    ". . . . ."; */
 }
-/* .fow-move-tactical {
-  grid-area: fow-move-tactical;
-}
-.fow-move-terrain {
-  grid-area: fow-move-terrain;
-}
-.fow-move-country {
-  grid-area: fow-move-country;
-}
-.fow-move-road {
-  grid-area: fow-move-road;
-}
-.fow-move-cross-check {
-  grid-area: fow-move-cross-check;
-} */
 .fow-weapon {
   grid-area: fow-weapon;
-  /* display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 1px 1px;
-  grid-template-areas:
-    "fow-weapon-desc fow-weapon-range fow-weapon-for-halted fow-weapon-rof-moved fow-weapon-antitank fow-weapon-firepower fow-weapon-note"
-    ". . . . . . ."; */
 }
-/* .fow-weapon-desc {
-  grid-area: fow-weapon-desc;
-}
-.fow-weapon-range {
-  grid-area: fow-weapon-range;
-}
-.fow-weapon-for-halted {
-  grid-area: fow-weapon-for-halted;
-}
-.fow-weapon-rof-moved {
-  grid-area: fow-weapon-rof-moved;
-}
-.fow-weapon-antitank {
-  grid-area: fow-weapon-antitank;
-}
-.fow-weapon-firepower {
-  grid-area: fow-weapon-firepower;
-}
-.fow-weapon-note {
-  grid-area: fow-weapon-note;
-} */
 </style>

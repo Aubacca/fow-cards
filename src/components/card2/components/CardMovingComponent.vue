@@ -1,5 +1,5 @@
 <template>
-  <div class="parent-move">
+  <div class="move-container item-container">
     <div class="move-tactical">
       <div class="move-header">Tactical</div>
       <div class="move-value">{{ this.itemMoving.tactical }}</div>
@@ -31,7 +31,10 @@ export default {
 </script>
 
 <style scoped>
-.parent-move {
+.item-container {
+  border: brown solid 1px;
+}
+.move-container {
   display: flex;
   justify-content: space-between;
 }

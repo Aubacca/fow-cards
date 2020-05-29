@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="item-container">
     <div>
-      <span>{{ this.itemMotivation.name }}</span>
-      <span>{{ this.itemMotivation.w6 }}</span>
+      <div class="item-header">{{ this.itemMotivation.name }}</div>
+      <div class="item-value">{{ this.itemMotivation.w6 }}</div>
     </div>
     <div
       class="skill"
@@ -10,11 +10,11 @@
       :key="index"
     >
       <div>
-        <span>
+        <div class="item-header">
           <div>{{ skill.name }}</div>
           <div>{{ skill.rule }}</div>
-        </span>
-        <span>{{ skill.w6 }}</span>
+        </div>
+        <div class="item-value">{{ skill.w6 }}</div>
       </div>
     </div>
   </div>
@@ -27,4 +27,14 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.item-container {
+  border: brown solid 1px;
+}
+.item-header {
+  float: left;
+}
+.item-value {
+  text-align: right;
+}
+</style>

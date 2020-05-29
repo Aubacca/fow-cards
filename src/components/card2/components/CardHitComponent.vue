@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <span>{{ this.itemHit.name }}</span>
-    <span>{{ this.itemHit.w6 }}</span>
+  <div class="item-container">
+    <div class="item-header">{{ this.itemHit.name }}</div>
+    <div class="item-value">{{ this.itemHit.w6 }}</div>
   </div>
 </template>
 
@@ -12,4 +12,14 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.item-container {
+  border: brown solid 1px;
+}
+.item-header {
+  float: left;
+}
+.item-value {
+  text-align: right;
+}
+</style>

@@ -1,16 +1,16 @@
 <template>
-  <div v-if="this.itemArmour">
+  <div v-if="this.itemArmour" class="item-container">
     <div>
-      <span>Front</span>
-      <span>{{ this.itemArmour.front }}</span>
+      <div class="item-header">Front</div>
+      <div class="item-value">{{ this.itemArmour.front }}</div>
     </div>
     <div>
-      <span>Side & Rear</span>
-      <span>{{ this.itemArmour.side }}</span>
+      <div class="item-header">Side & Rear</div>
+      <div class="item-value">{{ this.itemArmour.side }}</div>
     </div>
     <div>
-      <span>Top</span>
-      <span>{{ this.itemArmour.top }}</span>
+      <div class="item-header">Top</div>
+      <div class="item-value">{{ this.itemArmour.top }}</div>
     </div>
   </div>
 </template>
@@ -22,4 +22,14 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.item-container {
+  border: brown solid 1px;
+}
+.item-header {
+  float: left;
+}
+.item-value {
+  text-align: right;
+}
+</style>

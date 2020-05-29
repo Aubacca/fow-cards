@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="card-parent">
+    <div class="card-container">
       <div class="fow-card" v-for="(cardData, n) in allUnitCards" :key="n">
         <CardComponent :cardData="cardData" />
       </div>
@@ -30,7 +30,7 @@ export default {
 </script>
 
 <style scoped>
-.card-parent {
+.card-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
