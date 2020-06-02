@@ -44,7 +44,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .fow-card {
   border: brown solid 2px;
   border-radius: 10px;
