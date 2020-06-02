@@ -1,18 +1,21 @@
 <template>
-  <div class="item-container">
-    <div class="item-header">{{ this.itemSkill.name }}</div>
-    <div class="item-value">{{ this.itemSkill.w6 }}</div>
-    <div
-      class="skill"
-      v-for="(skill, index) in this.itemSkill.skill"
-      :key="index"
-    >
-      <div>
-        <div class="item-header">
-          <div>{{ skill.name }}</div>
-          <div>{{ skill.rule }}</div>
+  <div>
+    <h5>Skill</h5>
+    <div class="item-container">
+      <div class="item-header">{{ this.itemSkill.name }}</div>
+      <div class="item-value">{{ this.itemSkill.w6 }}</div>
+      <div
+        class="skill"
+        v-for="(skill, index) in this.itemSkill.skill"
+        :key="index"
+      >
+        <div>
+          <div class="item-header">
+            <div>{{ skill.name }}</div>
+            <div>{{ skill.rule }}</div>
+          </div>
+          <div class="item-value">{{ skill.w6 }}</div>
         </div>
-        <div class="item-value">{{ skill.w6 }}</div>
       </div>
     </div>
   </div>

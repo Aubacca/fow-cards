@@ -21,6 +21,7 @@
     <div class="fow-data-right">
       <CardHitComponent :itemHit="this.cardData.isHitOn" />
       <CardArmourComponent :itemArmour="this.cardData.armour" />
+      <CardSaveComponent :itemSaves="this.cardData.saves" />
     </div>
     <div class="fow-move">
       <CardMovingComponent :itemMoving="this.cardData.move" />
@@ -38,6 +39,7 @@ import CardHitComponent from "./CardHitComponent";
 import CardArmourComponent from "./CardArmourComponent";
 import CardMovingComponent from "./CardMovingComponent";
 import CardWeaponComponent from "./CardWeaponComponent";
+import CardSaveComponent from "./CardSaveComponent";
 
 export default {
   name: "CardComponent",
@@ -49,6 +51,7 @@ export default {
     CardArmourComponent,
     CardMovingComponent,
     CardWeaponComponent,
+    CardSaveComponent,
   },
   data() {
     return {};
@@ -57,7 +60,6 @@ export default {
 </script>
 
 <style scoped>
-
 .fow-grid-container {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
