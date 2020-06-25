@@ -1,9 +1,11 @@
 <template>
-  <div>
+  <div class="card-topic">
     <h5>Skill</h5>
-    <div class="item-container">
-      <div class="item-header">{{ this.itemSkill.name }}</div>
-      <div class="item-value">{{ this.itemSkill.w6 }}</div>
+    <div class="item-container card-topic-data">
+      <div class="card-topic-data-main">
+        <div class="item-header">{{ this.itemSkill.name }}</div>
+        <div class="item-value">{{ this.itemSkill.w6 }}</div>
+      </div>
       <div
         class="skill"
         v-for="(skill, index) in this.itemSkill.skill"
@@ -35,9 +37,13 @@ export default {
 .item-header {
   float: left;
   margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
 }
 .item-value {
   text-align: right;
   margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
 }
 </style>

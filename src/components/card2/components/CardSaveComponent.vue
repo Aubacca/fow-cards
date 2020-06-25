@@ -1,5 +1,5 @@
 <template>
-  <div v-if="this.itemSaves">
+  <div v-if="this.itemSaves" class="card-topic">
     <h5>Save</h5>
     <div
       class="item-container"

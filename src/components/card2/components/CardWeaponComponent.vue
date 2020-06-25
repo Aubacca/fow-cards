@@ -1,26 +1,34 @@
 <template>
-  <div class="item-container">
+  <div class="item-container card-topic">
     <div class="weapon-container">
-      <div class="weapon-desc">Weapon</div>
-      <div class="weapon-range">Range</div>
-      <div class="weapon-rof-halted">ROF Halted</div>
-      <div class="weapon-rof-moved">ROF Moved</div>
-      <div class="weapon-rof-antitank">Anti-tank</div>
-      <div class="weapon-rof-firepower">Fire-power</div>
-      <div class="weapon-rof-note">Note</div>
+      <div class="weapon-desc"><h5>Weapon</h5></div>
+      <div class="weapon-range"><h5>Range</h5></div>
+      <div class="weapon-rof-halted"><h5>ROF Halted</h5></div>
+      <div class="weapon-rof-moved"><h5>ROF Moved</h5></div>
+      <div class="weapon-rof-antitank"><h5>Anti-tank</h5></div>
+      <div class="weapon-rof-firepower"><h5>Fire-power</h5></div>
+      <div class="weapon-rof-note"><h5>Note</h5></div>
     </div>
     <div
       class="weapon-container"
       v-for="(itemWeapon, index) in this.itemWeapons"
       :key="index"
     >
-      <div class="weapon-desc">{{ itemWeapon.weapon }}</div>
-      <div class="weapon-range">{{ itemWeapon.range }}</div>
-      <div class="weapon-rof-halted">{{ itemWeapon.rofHalted }}</div>
-      <div class="weapon-rof-moved">{{ itemWeapon.rofMoving }}</div>
-      <div class="weapon-rof-antitank">{{ itemWeapon.antiTank }}</div>
-      <div class="weapon-rof-firepower">{{ itemWeapon.firePower }}</div>
-      <div class="weapon-rof-note">{{ itemWeapon.note }}</div>
+      <div class="weapon-desc weapon-value">{{ itemWeapon.weapon }}</div>
+      <div class="weapon-range weapon-value">{{ itemWeapon.range }}</div>
+      <div class="weapon-rof-halted weapon-value">
+        {{ itemWeapon.rofHalted }}
+      </div>
+      <div class="weapon-rof-moved weapon-value">
+        {{ itemWeapon.rofMoving }}
+      </div>
+      <div class="weapon-rof-antitank weapon-value">
+        {{ itemWeapon.antiTank }}
+      </div>
+      <div class="weapon-rof-firepower weapon-value">
+        {{ itemWeapon.firePower }}
+      </div>
+      <div class="weapon-rof-note weapon-value">{{ itemWeapon.note }}</div>
     </div>
   </div>
 </template>
@@ -61,5 +69,11 @@ export default {
 }
 .weapon-rof-note {
   grid-area: weapon-rof-note;
+}
+.weapon-value {
+  background: white;
+  color: black;
+  border-bottom: solid 0.5px olive;
+  border-right: solid 1.5px olive;
 }
 </style>

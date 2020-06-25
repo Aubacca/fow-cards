@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="card-topic">
     <h5>Is Hit On</h5>
-    <div class="item-container">
+    <div class="item-container card-topic-data-main">
       <div class="item-header">{{ this.itemHit.name }}</div>
       <div class="item-value">{{ this.itemHit.w6 }}</div>
     </div>
@@ -17,10 +17,9 @@ export default {
 
 <style scoped>
 .item-container {
-  border: brown solid 1px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .item-value {
   text-align: right;

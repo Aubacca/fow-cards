@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="card-topic">
     <h5>Motivation</h5>
-    <div class="item-container">
-      <div>
+    <div class="item-container card-topic-data">
+      <div class="card-topic-data-main">
         <div class="item-header">{{ this.itemMotivation.name }}</div>
         <div class="item-value">{{ this.itemMotivation.w6 }}</div>
       </div>
@@ -31,13 +31,17 @@ export default {
 </script>
 
 <style scoped>
-.item-container {
+/* .item-container {
   border: brown solid 1px;
-}
+} */
 .item-header {
   float: left;
+  font-size: 16px;
+  font-weight: bold;
 }
 .item-value {
   text-align: right;
+  font-size: 16px;
+  font-weight: bold;
 }
 </style>
