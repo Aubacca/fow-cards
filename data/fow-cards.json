@@ -251,6 +251,57 @@
     {
       "header": {
         "nation": "RU",
+        "name": "Artillery Battery",
+        "title": "76mm ZIS-3",
+        "subtitle": "Artillery Company"
+      },
+      "image": "",
+      "motivation": {
+        "name": "Fearless",
+        "w6": "3+",
+        "skill": []
+      },
+      "skill": {
+        "name": "Trained",
+        "w6": "4+",
+        "skill": []
+      },
+      "isHitOn": {
+        "name": "Aggresive",
+        "w6": "3+"
+      },
+      "saves": [{ "name": "Gun", "w6": "3+" }],
+      "move": {
+        "tactical": "10cm",
+        "terainDash": "10cm",
+        "crossCountryDash": "15cm",
+        "roadDash": "20cm",
+        "cross": "5+"
+      },
+      "weapons": [
+        {
+          "weapon": "76MM zis-3",
+          "range": "200cm",
+          "rofHalted": "Artillery",
+          "rofMoving": "Artillery",
+          "antiTank": "2",
+          "firePower": "4+",
+          "note": "Forward/Firing"
+        },
+        {
+          "weapon": "or Direct Fire",
+          "range": "80cm",
+          "rofHalted": "2",
+          "rofMoving": "1",
+          "antiTank": "9",
+          "firePower": "3+",
+          "note": "Forward Firing, Valley Firing"
+        }
+      ]
+    },
+    {
+      "header": {
+        "nation": "RU",
         "name": "Hero Tank Company",
         "title": "T-70",
         "subtitle": "Hero Tank Company"
@@ -418,6 +469,120 @@
         },
         {
           "weapon": "Panzer III (MG's)",
+          "range": "40cm",
+          "rofHalted": "4",
+          "rofMoving": "4",
+          "antiTank": "2",
+          "firePower": "6"
+        }
+      ]
+    },
+    {
+      "header": {
+        "nation": "DE",
+        "name": "Heer",
+        "title": "Panther",
+        "subtitle": "Tank Platoon"
+      },
+      "image": "",
+      "motivation": {
+        "name": "Confident",
+        "w6": "4+",
+        "skill": []
+      },
+      "skill": {
+        "name": "Veteran",
+        "w6": "3+"
+      },
+      "isHitOn": {
+        "name": "Careful",
+        "w6": "4+"
+      },
+      "armour": { "front": 10, "side": 5, "top": 1 },
+      "move": {
+        "tactical": "25cm",
+        "terainDash": "30cm",
+        "crossCountryDash": "45cm",
+        "roadDash": "50cm",
+        "cross": "2+"
+      },
+      "weapons": [
+        {
+          "weapon": "Panther (late 7.5cm)",
+          "range": "80cm",
+          "rofHalted": "2",
+          "rofMoving": "1",
+          "antiTank": "14",
+          "firePower": "3+"
+        },
+        {
+          "weapon": "Panther (MG's)",
+          "range": "40cm",
+          "rofHalted": "4",
+          "rofMoving": "4",
+          "antiTank": "2",
+          "firePower": "6"
+        }
+      ]
+    },
+    {
+      "header": {
+        "nation": "DE",
+        "name": "Sturmtruppen",
+        "title": "Tiger",
+        "subtitle": "Tank Platoon"
+      },
+      "image": "",
+      "motivation": {
+        "name": "Confident",
+        "w6": "4+",
+        "skill": [
+          {
+            "name": "Tiger Ace",
+            "rule": "Last Stand",
+            "w6": "3+"
+          },
+          {
+            "name": "Protected Ammo",
+            "rule": "Remount",
+            "w6": "3+"
+          }
+        ]
+      },
+      "skill": {
+        "name": "Veteran",
+        "w6": "3+",
+        "skill": [
+          {
+            "name": "Tiger Ace",
+            "rule": "Blitz Move",
+            "w6": "2+"
+          }
+        ]        
+      },
+      "isHitOn": {
+        "name": "Careful",
+        "w6": "4+"
+      },
+      "armour": { "front": 9, "side": 8, "top": 2 },
+      "move": {
+        "tactical": "20cm",
+        "terainDash": "30cm",
+        "crossCountryDash": "35cm",
+        "roadDash": "40cm",
+        "cross": "2+"
+      },
+      "weapons": [
+        {
+          "weapon": "Tiger (late 8.8cm)",
+          "range": "100cm",
+          "rofHalted": "2",
+          "rofMoving": "1",
+          "antiTank": "13",
+          "firePower": "3+"
+        },
+        {
+          "weapon": "Tiger (MG's)",
           "range": "40cm",
           "rofHalted": "4",
           "rofMoving": "4",
